@@ -13,6 +13,8 @@
 		ADB2467A284A60F300D55EC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB24678284A60F300D55EC5 /* Main.storyboard */; };
 		ADB2467C284A60F400D55EC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB2467B284A60F400D55EC5 /* Assets.xcassets */; };
 		ADB2467F284A60F400D55EC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB2467D284A60F400D55EC5 /* LaunchScreen.storyboard */; };
+		ADB24687284A664900D55EC5 /* ToggleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB24686284A664900D55EC5 /* ToggleTableViewCell.swift */; };
+		ADB24689284A668C00D55EC5 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB24688284A668C00D55EC5 /* SettingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		ADB2467B284A60F400D55EC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADB2467E284A60F400D55EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADB24680284A60F400D55EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADB24686284A664900D55EC5 /* ToggleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTableViewCell.swift; sourceTree = "<group>"; };
+		ADB24688284A668C00D55EC5 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				ADB24672284A60F300D55EC5 /* AppDelegate.swift */,
 				ADB24674284A60F300D55EC5 /* SceneDelegate.swift */,
+				ADB24686284A664900D55EC5 /* ToggleTableViewCell.swift */,
+				ADB24688284A668C00D55EC5 /* SettingTableViewCell.swift */,
 				ADB24676284A60F300D55EC5 /* ViewController.swift */,
 				ADB24678284A60F300D55EC5 /* Main.storyboard */,
 				ADB2467B284A60F400D55EC5 /* Assets.xcassets */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADB24677284A60F300D55EC5 /* ViewController.swift in Sources */,
+				ADB24689284A668C00D55EC5 /* SettingTableViewCell.swift in Sources */,
+				ADB24687284A664900D55EC5 /* ToggleTableViewCell.swift in Sources */,
 				ADB24673284A60F300D55EC5 /* AppDelegate.swift in Sources */,
 				ADB24675284A60F300D55EC5 /* SceneDelegate.swift in Sources */,
 			);
